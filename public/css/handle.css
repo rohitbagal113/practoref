@@ -1,0 +1,68 @@
+.handlepage{
+    background-color: blanchedalmond;
+    margin-top: 3%;
+    margin-left: 15%;
+    width:700px;
+    height:600px;
+}
+.m1{
+    margin-top: 3%;
+    margin-left: 3%;
+  background-color: rgb(202, 244, 230);
+  display: inline-block;
+  height: 70px;
+  width:150px;
+  border-radius: 10px;
+}
+.m2{
+    margin-top: 3%;
+    margin-left: 2%;
+  background-color: rgb(202, 244, 230);
+  display: inline-block;
+  height: 70px;
+  width:190px;
+  border-radius: 10px;
+}
+.m3{
+    margin-top: 3%;
+    margin-left: 3%;
+  background-color: rgb(202, 244, 230);
+  display: inline-block;
+  height: 70px;
+  width:150px;
+  border-radius: 10px;
+}
+.m4{
+    margin-top: 3%;
+    margin-left: 3%;
+  /* background-color: rgb(59, 245, 59); */
+  display: inline-block;
+  height: 65px;
+  width:100px;
+}
+.m5{
+  margin-top: 3%;
+  margin-left: 15%;
+background-color: rgb(202, 244, 230);
+display: inline-block;
+height: 500px;
+width:550px;
+border-radius: 10px;
+background-image: url(../css/images/tick8.jpg);
+background-position: center;
+}
+.men{
+  margin-left: 12%;
+}
+.btn{
+    padding-left: 5px;
+    padding-top: 10px;
+    color: blue;
+    background-color: black;
+    width:100px;
+}
+p{
+    padding-top: 8px;
+    padding-left: 5px;
+    font-size: 20px;
+}

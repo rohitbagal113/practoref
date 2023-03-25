@@ -1,0 +1,46 @@
+body{
+    background-color: blue;
+}
+.appage{
+    margin-top: 3%;
+    background-color: aquamarine;
+    margin-left: 15%;
+    height: 650px;
+    width:800px;
+    border-radius: 10px;
+
+}
+.m1{
+    margin-top: 3%;
+    margin-left: 3%;
+  background-color: aquamarine;
+  display: inline-block;
+  height: 550px;
+  width:350px;
+}
+.m2{
+    margin-top: 3%;
+    margin-left: 3%;
+    background-color: yellow;
+    display: inline-block;
+    height: 400px;
+    width:350px;
+    background-image: url(../css/images/m12.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+    border-radius: 50px;
+  }
+  textarea{
+    border-radius: 7px;
+    width:320px;
+    
+  }
+  input{
+    border-radius: 5px;
+  }
+  .btn{
+    width:150px;
+    background-color: rgb(175, 188, 196);
+
+  }

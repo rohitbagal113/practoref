@@ -1,0 +1,51 @@
+body{
+    background-image: url("../css/images/ht3.webp");
+}
+.v1{
+    background-color: black;
+    height: 30rem;
+    width: 35%;
+    margin-top: 7%;
+    margin-left: 30%;
+    margin-right: 35%;
+    background-image: url("../css/images/ht.webp");
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+}
+.v2{
+    background: rgba(103, 192, 233, 0.8);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+.us{
+    background-color: white;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-size: 20px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+}
+.ps{
+    background-color: white;
+    margin-bottom: 3%;
+    font-size: 20px;
+    border-radius: 3px;  
+    border-style: solid;
+    border-width: 1px;        
+}
+.log{
+    margin-top: 10%;
+    background-color: blue;
+    width: 265px;
+    height: 30px;
+    border-radius: 4px;
+}

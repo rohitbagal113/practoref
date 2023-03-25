@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/aps.css">
+</head>
+<body>
+    <%-include('partials/header');-%>
+    <div class="appage">
+        <div class="m1">
+            <h2>Consult with Doctor</h2>
+            <h3>Tell us your symptoms or problems</h3>
+            <form action="/aps" method="post">
+                <textarea placeholder="symptoms" name="txtarea" rows="5" cols="40"></textarea>
+                <h3>A Relavant speciality will be shown</h3>
+                <h3>Mobile Number:</h3>
+                <input placeholder="+91" type="tel" name="mob" id="">
+                <h3>verification code will be sent to number</h3>
+                <button type="submit" class="btn">Continue</button>
+            </form>
+        </div>
+        <div class="m2">
+            
+        </div>  
+              
+    </div>
+    <%-include('partials/footer');-%>    
+</body>
+</html>    

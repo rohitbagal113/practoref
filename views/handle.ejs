@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/handle.css">
+</head>
+<body>
+    <%-include('partials/header');-%>
+    <div class="handlepage"> 
+        <%array.forEach(function(i){%>
+            <div class="m1">
+                <p><%=i.nam%></p>
+            </div>
+            <div class="m2">
+                <p><%=i.symptoms%></p>
+            </div>
+            <div class="m3">
+                <p><%=i.mob%></p>
+            </div>  
+            <div class="m4">
+                <a href="/congo">
+                    <button class="btn">Appoint</button>
+                </a>
+            </div>         
+        <%}) %>
+    </div>
+    <%-include('partials/footer');-%>    
+</body>
+</html>   
